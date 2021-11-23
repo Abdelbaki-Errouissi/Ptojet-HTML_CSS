@@ -139,19 +139,17 @@ img
     width: 600px;
     
    
-    
 }
-.bureau
+
+.bureau 
 {
-background-color: rgb(22, 22, 236);
 background-image: url('images/thumbnail_Group\ 177.png');
-height: 400px;
+height: 500px;
+width: 804px;
 background-repeat: no-repeat;
-margin-right: 50px;
 margin-left: 50px;
-background-position: left;
-    
-}
+background-position: center;
+background-color: rgb(22, 115, 221);
 
 
 
