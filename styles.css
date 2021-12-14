@@ -2,11 +2,23 @@
 {
     box-sizing: border-box;
 }
+/* *
+{
+    outline: 1px solid red;   
+} */
+html
+{
+    font-size: 100%;
+}
 body
 {
     font-family: sans-serif;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
+
 }
+
 header
 {
     height: 320px;
@@ -15,12 +27,26 @@ header nav
 {
     float: right;
     margin-top: 30px;
-
+  
 }
 ul
 {
     list-style: none;
-    margin-right: 400px;
+    margin-right: 300px;
+    margin-top: -5px;
+}
+.boutton-top
+{
+    color: white;
+    border: 1px solid white;
+    background: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.B
+{
+   
+    padding-right:150px;
 }
 
 header nav ul li
@@ -45,10 +71,7 @@ main
     background-position: top right;
     margin-right: 50px;
     margin-left: 50px;
-  
-    
-
-    
+     
 }
 
 #main h1
@@ -82,7 +105,15 @@ h1
     background: none;
     border-radius: 5px;
     font-size: 20px;
-    padding-block: 5px;   
+    padding: 15px 38px;  
+
+}
+.contenu
+{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 
 }
 
@@ -99,63 +130,224 @@ h1
 #what-do p
 {
     text-align: center;
-    margin-top: 20px;
+   
     margin-left: 100px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 15px;
 }
-
-#how-do p
-{ 
-    color: white;
-    margin-top: 50px;
-    margin-left: 300px;
-    margin-bottom: 50px;
-}
-h3
+.contenu2
 {
-    display: block;
-    margin-top: 50px;
-    margin-left: 300px;
-    margin-bottom: 50px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.how-do
+{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color:rgba(0, 110, 255, 0.945) ;
+    color: white;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 100px;
     padding-top: 100px;
-    color: white;
-    
+    width: 100%;
 }
-#how-do
+
+.ordi
 {
-        background-color: rgba(0, 110, 255, 0.945);
-        padding-bottom: 80px; 
-        
-        background-repeat: no-repeat;
-        background-position: top right;
-        margin-right: 50px;
-        margin-left: 50px;
-       
+   
+    grid-column: 2 / 2;
+    grid-row:  1;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    padding-bottom: 396px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    width: 100%;
+
+    background-position: left;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-image: url(images/thumbnail_glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
 
 }
-img
+.bureau
 {
-    float: right;
-    width: 600px;
-    
+    grid-column: 1/2;
+    grid-row: 2 ;
+    background-image: url(images/thumbnail_Group\ 177.png);  
+    background-position: center;
+    padding-left: 500px;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    background-color:rgba(14, 73, 150, 0.945) ;
+    width: 100%;
+    margin-top: 0px;   
+
+}
+.our-values
+{
+    grid-column: 2/2;
+    grid-row: 2;
+    background-color: rgba(0, 110, 255, 0.945);
+    margin-left: 0px;
+    padding-left: 90px;
+    padding-right: 0px;
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: left;
+    color: white;
+    width: 100%;
+
+}
+.gauche
+{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 250px;
+
+}
+.droite
+{
+    margin-top: 300px;
+    width: 100%;
+    margin-right: 50px;
+}
+.haut
+{
+    margin-left: 15px;
+    background-color: #d2e8ffa4;
+    margin-right: 195px;
+    padding-left: 54px;
+    padding-bottom: 23px;
+    margin-top: 6px;
+}
+.bas
+{
+    background-color: #f4f4f5a4;
+    padding-top: -12px;
+    margin-right: 189px;
+    margin-left: 12px;
+    padding-bottom: 24px;
+    margin-top: 11px;
+    padding-top: 1px;
+    padding-left: 48px;
+}
+
+
+.bas p
+{
+    color: cornflowerblue;
+}
+.gauche h1
+{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+.gauche p
+{
+    text-align: left;
+    margin-left: 30px
+}
+#figure
+{
+    background-image: url(images/thumbnail_Woman_1.png);
+    width: 53%;
+    height: 159px;
+    background-position: left;
+    background-repeat: no-repeat;
+    clip-path: circle(46%);
+    padding-top: 0px;
+    margin-top: -102px 
    
 }
-
-.bureau 
+#localisation
 {
-background-image: url('images/thumbnail_Group\ 177.png');
-height: 500px;
-width: 804px;
-background-repeat: no-repeat;
-margin-left: 50px;
-background-position: center;
-background-color: rgb(22, 115, 221);
+    background-image: url(images/38.\ .\ Place_holder.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 47px;
+    padding-top: 1px;
+    margin-top: 38px;
+    margin-bottom: -22px;
+    padding-bottom: -33px
+}
+.contenu3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 50px;
+    margin-left: 50px;
 
+}
+.contenu4
+{
+    background-color: gainsboro;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 74px;
+    padding-top: 52px;
+    padding-bottom: 51px;
 
+}
+.button-2
+{
+   
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 110, 255, 0.945);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px 38px;  
 
+}
+.contenu4 p
+{
+    margin-bottom: 60px;
+}
 
-
-
+.liens{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px; 
+  margin:10px;
+}
+.liens > div{
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+}
+.B_system
+{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px; 
+  margin:10px;
+}
+.B_system p
+{
+   
+    margin: 0px;
+   padding: 6px;
+}
 
 
 
