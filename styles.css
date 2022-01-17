@@ -18,6 +18,11 @@ body
     padding: 0;
 
 }
+/*ajout pour le responcive*/
+img
+{
+    max-width: 100%;
+}
 
 header
 {
@@ -154,15 +159,7 @@ h1
     padding-bottom: 0px;
     font-size: 15px;
 }
-.contenu2
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    
-    margin-right: 50px;
-    margin-left: 50px;
-}
+
 .how-do
 {
     grid-column: 1 / 2;
@@ -228,6 +225,8 @@ h1
     width: 100%;
 
 }
+
+
 .gauche
 {
     margin-top: 50px;
@@ -240,6 +239,7 @@ h1
     margin-top: 300px;
     width: 100%;
     margin-right: 50px;
+   
 }
 .haut
 {
@@ -302,14 +302,8 @@ h1
     margin-bottom: -22px;
     padding-bottom: -33px
 }
-.contenu3
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-right: 50px;
-    margin-left: 50px;
 
-}
+
 .contenu4
 {
     background-color: gainsboro;
@@ -365,7 +359,82 @@ font-size: 20px;
     margin: 0px;
    padding: 6px;
 }
+/*responsiev*/
+@media screen and (min-width: 400px)
+ {
+    
+    .contenu3
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 50px;
+        margin-left: 50px;
+    
+    }
+    .contenu2
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 40px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    
+}
+@media screen and (max-width:414px)
+{
+    .body
+    {
+        padding: 0px;
+    }
+    header
+    {
+        padding: 12px 20px;
+    }
+    .navigateur a
+    {
+        padding-left: 10px;
+        float: right;
+    }
+    .contenu3
+    {
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .contenu3 p{
+        font-size: 10px;
+    }
+    .droite{
+        margin-right: -101px
+    }
+    /*.contenu2
+    {
 
+    flex-direction: column;
+    align-items: center;    
+    }*/
+    .contenu4 p a
+   {
+    font-size: 1em;
+    text-align: center;
+   padding: 10px;
+
+   }
+    
+    .our-values .ordi
+    {
+    width: 100%;
+        
+    }
+}
+.contenu3
+{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
