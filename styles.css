@@ -1,0 +1,463 @@
+/**
+{
+    box-sizing: border-box;
+}
+ *
+{
+    outline: 1px solid red;   
+} */
+html
+{
+    font-size: 100%;
+}
+body
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+    height: 200px;
+}
+header div
+{
+    float: right;
+    margin-top: 30px;
+  
+}
+.contenu 
+{
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+
+}
+
+ul
+{
+    list-style: none;
+    margin-right: 423px;
+    margin-top: 7px;
+    margin-left: 86px;
+}
+.boutton-top
+{
+    color: white;
+    border: 1px solid white;
+    background: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 23px;
+}
+.navigateur
+{
+    display: inline-block;
+    
+}
+.Your-area
+{
+    display: inline-block;
+    margin-right: -390px;
+    margin-top: -41px;
+}
+
+.B
+{
+    float: left;
+    padding-left: 10px;
+}
+
+header div ul li
+{
+    display: inline-block;
+}
+header div ul li a
+{
+    margin-right: 30px;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+}
+main
+{
+    background-color: rgba(0, 110, 255, 0.945);
+    padding-bottom: 250px; 
+    background-image: url('images/thumbnail_Man_working.png') ;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 50px;
+    margin-left: 50px;
+     
+}
+
+#We-make h1
+{
+    color: white;
+  
+}
+#We-make p
+{
+    color: white;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+h1
+{
+    display: block;
+    font-size: 70px;  
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-bottom: 50px; 
+}
+
+.button-1
+{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    color: white;
+    border: 1px solid white;
+    background: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 38px;  
+
+}
+
+
+#what-do
+{
+    margin-top: 120px;
+    height: 150px;
+}
+#what-do h2
+{
+    text-align: center;
+}
+#what-do p
+{
+    text-align: center;
+   
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+}
+
+.how-do
+{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color:rgba(0, 110, 255, 0.945) ;
+    color: white;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.ordi
+{
+   
+    grid-column: 2 / 2;
+    grid-row:  1;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    padding-bottom: 396px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    width: 100%;
+
+    background-position: left;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-image: url(images/thumbnail_glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+
+}
+.bureau
+{
+    grid-column: 1/2;
+    grid-row: 2 ;
+    background-image: url(images/thumbnail_Group\ 177.png);  
+    background-position: center;
+    padding-left: 500px;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    background-color:rgba(14, 73, 150, 0.945) ;
+    width: 100%;
+    margin-top: 0px;   
+
+}
+.our-values
+{
+    grid-column: 2/2;
+    grid-row: 2;
+    background-color: rgba(0, 110, 255, 0.945);
+    margin-left: 0px;
+    padding-left: 90px;
+    padding-right: 0px;
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: left;
+    color: white;
+    width: 100%;
+
+}
+
+
+.gauche
+{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 250px;
+
+}
+.droite
+{
+    margin-top: 300px;
+    width: 100%;
+    margin-right: 50px;
+   
+}
+.haut
+{
+    margin-left: 15px;
+    background-color: #d2e8ffa4;
+    margin-right: 195px;
+    padding-left: 54px;
+    padding-bottom: 23px;
+    margin-top: 6px;
+}
+.bas
+{
+    background-color: #f4f4f5a4;
+    padding-top: -12px;
+    margin-right: 189px;
+    margin-left: 12px;
+    padding-bottom: 24px;
+    margin-top: 11px;
+    padding-top: 1px;
+    padding-left: 48px;
+}
+
+.bas p
+{
+    color: cornflowerblue;
+}
+.gauche h1
+{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+.gauche p
+{
+    text-align: left;
+    margin-left: 30px
+}
+#figure
+{
+    background-image: url(images/thumbnail_Woman_1.png);
+    width: 53%;
+    height: 159px;
+    background-position: left;
+    background-repeat: no-repeat;
+    clip-path: circle(46%);
+    padding-top: 0px;
+    margin-top: -102px 
+   
+}
+#localisation
+{
+    background-image: url(images/38.\ .\ Place_holder.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 47px;
+    padding-top: 1px;
+    margin-top: 38px;
+    margin-bottom: -22px;
+    padding-bottom: -33px
+}
+
+.contenu4
+{
+    background-color: gainsboro;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 74px;
+    padding-top: 52px;
+    padding-bottom: 51px;
+
+}
+.button-2
+{
+   
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 110, 255, 0.945);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px 38px;  
+
+}
+.contenu4 p
+{
+    margin-bottom: 60px;
+}
+
+.liens{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px; 
+  margin:10px;
+}
+.liens > div{
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+}
+.B_system
+{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px; 
+  margin:10px;
+}
+.B_system p
+{
+   
+    margin: 0px;
+   padding: 6px;
+}
+ .contenu3
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 50px;
+        margin-left: 50px;
+    
+    }
+    
+    .contenu2
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 40px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .simple{
+        margin: 0px;
+    }
+    
+.magic
+{
+    display: block;
+}
+@media screen and (max-width:360px)
+{
+    .contenu2
+    {
+        display: block;
+    }
+    .contenu3
+    {
+       display: block;
+    }
+    .ordi{
+        width: 160%;
+        text-align: center;
+        padding: auto;
+    }
+    .our-values
+    {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 400px;
+    }
+    .our-values h4
+    {
+        text-align: center;
+    }
+    .simple 
+    {
+        text-align: center;
+    }
+    .bureau
+    {
+        background-position:left;
+    }
+    .gauche
+    {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .img
+    {
+        width: 100%;
+    }
+    .droite
+    {
+        width: 200%;
+    }
+    #what-do p
+    {
+        margin-left: 33px;
+    }
+    main
+    {
+        background-position: center;
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+    .button-1
+    {
+        margin-left: 100px;
+    }
+    #We-make a
+    {
+        padding-top: 10px;
+    }
+    #We-make
+    {
+        margin-top: 265px;
+    }
+    #We-make p
+    {
+        margin-left: 50px;
+    }
+    #We-make h1
+    {
+        margin-bottom: 394px;
+        font-size: 30px;
+        margin-left: 124px;
+    }
+}
+
+
+
+
+
